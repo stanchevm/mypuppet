@@ -1,7 +1,7 @@
 class apache ($version = 'installed') {
   anchor { 'apache::begin':}
   ->
-  package { 'httpd.x86_64':
+  package { 'httpd':
     ensure => $version,
     }
   ->
