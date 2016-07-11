@@ -1,0 +1,13 @@
+classes:
+ - apache
+ - mysql
+ - java8
+ - tomcat
+
+apache::version: 2.2.15-53.el6.centos
+
+mysql::version: 5.1.73-7.el6
+
+java::version: 1.8.0-openjdk-devel.x86_64
+
+tomcat::version: 0.1-1.el6
